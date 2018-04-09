@@ -1,3 +1,26 @@
+@import "../modules/typography";
 section {
+  background-color: black;
+  color: white;
   margin-top: 0;
+  text-align: center;
+  margin:  0;
+  width:  100%;
+}
+
+input.form-control.string.email.required {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+input.btn.btn-default.submit {
+  background-color: black;
+  border-radius:  0px;
+  border: 1px solid white;
+  font-family: $font-2;
+  margin-bottom: 3%;
+  border-top: .6px solid white;
+  border-right: .6px solid white;
+  text-transform: uppercase;
 }

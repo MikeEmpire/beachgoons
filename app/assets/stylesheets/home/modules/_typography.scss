@@ -1,9 +1,14 @@
 @font-face {
-  font-family: "Hunger Games";
+  font-family: "TheSkinny";
   src: url('/assets/TheSkinny');
 }
 
-$font-1: Hunger Games;
+@font-face {
+  font-family: "Adventure";
+  src: url('/assets/Adventure');
+}
+$font-1: TheSkinny;
+$font-2: Adventure;
 
 h2 {
   font-family: $font-1;
