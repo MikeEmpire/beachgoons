@@ -3,6 +3,8 @@
   src: url('/assets/TheSkinny');
 }
 
+$font-1: Hunger Games;
+
 h2 {
-  font-family: Hunger Games;
+  font-family: $font-1;
 }
