@@ -8880,17 +8880,95 @@ section {
   position: relative;
   width: 100%;
 }
+/* line 8, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/_base.scss */
+#header img {
+  position: absolute;
+  z-index: 1;
+  left: 2%;
+  top: 9%;
+}
 @font-face {
-  font-family: "Hunger Games";
+  font-family: "TheSkinny";
   src: url("/assets/TheSkinny");
 }
-/* line 8, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/modules/_typography.scss */
-h2 {
-  font-family: Hunger Games;
+@font-face {
+  font-family: "Adventure";
+  src: url("/assets/Adventure");
 }
-/* line 1, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_headerform.scss */
+/* line 13, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/modules/_typography.scss */
+h2 {
+  font-family: TheSkinny;
+}
+/* line 1, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_footer.scss */
+#footer {
+  background-color: white;
+}
+/* line 3, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_footer.scss */
+#footer ul {
+  padding-right: 10%;
+}
+/* line 5, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_footer.scss */
+#footer ul a.social {
+  color: black;
+  font-size: 25px;
+}
+/* line 8, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_footer.scss */
+#footer ul a.social i {
+  padding-right: 5%;
+}
+/* line 1, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_grid.scss */
+.grid {
+  margin-top: 5%;
+}
+/* line 3, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_grid.scss */
+.grid img {
+  border: 1px solid black;
+}
+/* line 6, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_grid.scss */
+.grid .col-md-3 {
+  padding-top: 4%;
+  margin-bottom: 2%;
+}
+@font-face {
+  font-family: "TheSkinny";
+  src: url("/assets/TheSkinny");
+}
+@font-face {
+  font-family: "Adventure";
+  src: url("/assets/Adventure");
+}
+/* line 13, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/modules/_typography.scss */
+h2 {
+  font-family: TheSkinny;
+}
+
+/* line 2, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_headerform.scss */
 section {
+  background-color: black;
+  color: white;
   margin-top: 0;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 11, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_headerform.scss */
+input.form-control.string.email.required {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* line 17, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_headerform.scss */
+input.btn.btn-default.submit {
+  background-color: black;
+  border-radius: 0px;
+  border: 1px solid white;
+  font-family: Adventure;
+  margin-bottom: 3%;
+  border-top: .6px solid white;
+  border-right: .6px solid white;
+  text-transform: uppercase;
 }
 /* line 1, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
 span {
@@ -8904,12 +8982,19 @@ span {
   top: 5%;
 }
 
-/* line 12, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
+/* line 11, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
+span#search {
+  background-color: transparent;
+  font-size: x-large;
+  right: 4em;
+}
+
+/* line 17, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   top: 0;
   left: 0;
   background-color: #111;
@@ -8918,7 +9003,7 @@ span {
   padding-top: 60px;
 }
 
-/* line 25, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
+/* line 30, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -8928,12 +9013,12 @@ span {
   transition: 0.3s;
 }
 
-/* line 34, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
+/* line 39, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
-/* line 38, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
+/* line 43, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -8943,12 +9028,12 @@ span {
 }
 
 @media screen and (max-height: 450px) {
-  /* line 47, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
+  /* line 52, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
   .sidenav {
     padding-top: 15px;
   }
 
-  /* line 48, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
+  /* line 53, /Users/afamolie/projects/beachgoon--website/app/assets/stylesheets/home/partials/_navigation.scss */
   .sidenav a {
     font-size: 18px;
   }
