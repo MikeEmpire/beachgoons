@@ -1,3 +1,6 @@
+$twitter: #00aced;
+$facebook: rgb(59,89,152);
+$instagram: #cd486b;
 #footer {
   background-color: white;
   ul {
@@ -5,8 +8,21 @@
     a.social {
       color: black;
       font-size: 25px;
+      &:hover {
+        text-decoration: none;
+      }
       i {
         padding-right: 5%;
+        transition: .3s;
+      }
+      i.fa-facebook:hover {
+        color: $facebook;
+      }
+      i.fa-twitter:hover {
+        color: $twitter;
+      }
+      i.fa-instagram:hover {
+        color: $instagram;
       }
     }
   }
