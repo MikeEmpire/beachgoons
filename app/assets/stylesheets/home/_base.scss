@@ -5,10 +5,12 @@
   height: 60vh;
   position: relative;
   width: 100%;
-  img {
+  h2 {
+    color: white;
+    font-size: -webkit-xxx-large;
+    left: 3%;
     position: absolute;
+    top: 6%;
     z-index: 1;
-    left: 2%;
-    top: 9%;
   }
 }
