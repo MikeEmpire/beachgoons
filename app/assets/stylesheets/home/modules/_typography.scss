@@ -4,10 +4,16 @@
 }
 
 @font-face {
+  font-family: "TheSkinny-bold";
+  src: url('/assets/TheSkinny-bold');
+}
+
+@font-face {
   font-family: "Adventure";
   src: url('/assets/Adventure');
 }
 $font-1: TheSkinny;
+$font-1-bold: TheSkinny-bold;
 $font-2: Adventure;
 
 h2 {

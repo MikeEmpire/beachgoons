@@ -1,3 +1,4 @@
+@import "./modules/typography";
 #header {
   background-image: image-url("Pic1.jpg");
   background-size: 100vw 100vh;
@@ -7,6 +8,7 @@
   width: 100%;
   h2 {
     color: white;
+    font-family: $font-1-bold;
     font-size: -webkit-xxx-large;
     left: 3%;
     position: absolute;
